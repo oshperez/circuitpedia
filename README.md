@@ -1,4 +1,4 @@
-# WEB103 Project 1 - _Circuitpedia_
+# WEB103 Project 2 - Circuitpedia
 
 Submitted by: **Osmani Hernandez**
 
@@ -8,7 +8,7 @@ Circuitpedia is a small web application that serves as a reference guide for com
 
 The application is built using **HTML, CSS, and JavaScript** with a simple **Node.js/Express backend** that serves the component data and routes. The user interface is styled using **PicoCSS** and displays the components in a card-based layout.
 
-Time spent: **5 hours**
+Time spent: **8 hours**
 
 ---
 
@@ -20,12 +20,13 @@ The following **required** functionality is completed:
 - [x] **The web app displays a title**
 - [x] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
 - [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [x] **Each detail view is a unique endpoint**, such as  
-         `localhost:3000/components/1`  
-         `localhost:3000/components/2`
+- [x] **Each detail view is a unique endpoint**, such as  
+       `localhost:3000/components/1`  
+       `localhost:3000/components/2`
 
 - [x] **The web app serves an appropriate 404 page when no matching route is defined**
 - [x] **The web app is styled using PicoCSS**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
 
 ---
 
@@ -34,6 +35,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [x] The web app displays items using a **card-based layout instead of a traditional list**
+- [ ] The user can search for items by a specific attribute
 
 ---
 
@@ -46,11 +48,11 @@ No additional features
 Here's a walkthrough of implemented required features:
 
 <div>
-    <a href="https://www.loom.com/share/2493665f3fc747529e93c6e47ec44527">
-      <p>Circuitpedia - 6 March 2026 - Watch Video</p>
+    <a href="https://www.loom.com/share/7827f9548092430592c1ca449e651584">
+      <p>WEB103 Project 2 - Circuitpedia - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/2493665f3fc747529e93c6e47ec44527">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/2493665f3fc747529e93c6e47ec44527-34f69e93dcd73536-full-play.gif#t=0.1">
+    <a href="https://www.loom.com/share/7827f9548092430592c1ca449e651584">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/7827f9548092430592c1ca449e651584-46e3db37f4cde115-full-play.gif#t=0.1">
     </a>
   </div>
 
